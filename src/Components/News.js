@@ -11,7 +11,21 @@ export class News extends Component {
         <h1 className="text-center my-5">
           <b>News Climb</b> -Latest News
         </h1>
-        <NewsItem title="Cricket" description="Cricket got bannedd" />
+        <div className="row ">
+          <div className="col-md-4">
+            <NewsItem
+              title="Cricket"
+              description="Cricket got bannedd"
+              imageUrl="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/C1B5/production/_120698594_knight_getty.jpg"
+            />
+          </div>
+          <div className="col-md-4">
+            <NewsItem title="Cricket" description="Cricket got bannedd" />
+          </div>
+          <div className="col-md-4">
+            <NewsItem title="Cricket" description="Cricket got bannedd" />
+          </div>
+        </div>
       </div>
     );
   }
